@@ -17,4 +17,11 @@ The application is built using Node.js and utilizes inquirer for user input and 
 2. Navigate to the project directory in your terminal.
 3. Run `npm install` to install the dependencies.
 
+## Usage
+1. After installing dependencies, run `node index.js` in your terminal to start the application.
+2. Follow the prompts to input information about the team members.
+3. Once you have finished adding team members, select the option to finish building the team.
+4. The application will generate an HTML file in the `output` directory containing the team page.
+
+
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
