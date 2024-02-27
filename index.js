@@ -42,3 +42,27 @@ function promptManager() {
         promptEmployeeType();
     });
 }
+
+// Function to prompt user to input Employee's type
+
+function promptEmployeeType() {
+
+    console.log("\nPlease choose the type of employee you want to add:");
+    
+    inquirer.prompt([
+        {
+            type: "list",
+            name: "type",
+            message: "Select employee type:",
+            choices: ["Engineer", "Intern", "Finish building team"],
+        }
+    ]).then(answer => {
+        if (answer.type === "Engineer") {
+            promptEngineer();
+        } else if (answer.type === "Intern") {
+            promptIntern();
+        } else {
+            generateTeamHtml();
+        }
+    });
+}
