@@ -1,6 +1,15 @@
 const Manager = require("../lib/Manager");
 const Employee = require("../lib/Employee");
 
+test('creates a Manager object', () => {
+    const manager = new Manager('John', 1, 'john@example.com', '123');
+    expect(manager.name).toBe('John');
+    expect(manager.id).toBe(1);
+    expect(manager.email).toBe('john@example.com');
+    expect(manager.officeNumber).toBe('123');
+});
+
+
 test("Can set office number via constructor argument", () => {
   const testValue = 100;
   const e = new Manager("Foo", 1, "test@test.com", testValue);
