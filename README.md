@@ -26,4 +26,8 @@ The application is built using Node.js and utilizes inquirer for user input and 
 ## Tests
 - Run `npm test` to run the test suite and ensure all tests pass.
 
+## Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
+
+
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
