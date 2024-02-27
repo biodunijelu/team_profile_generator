@@ -48,7 +48,7 @@ function promptManager() {
 function promptEmployeeType() {
 
     console.log("\nPlease choose the type of employee you want to add:");
-    
+
     inquirer.prompt([
         {
             type: "list",
@@ -64,5 +64,38 @@ function promptEmployeeType() {
         } else {
             generateTeamHtml();
         }
+    });
+}
+
+// Function to prompt user to input Engineer's details
+function promptEngineer() {
+
+    console.log("\nPlease enter the details of the engineer:");
+    
+    inquirer.prompt([
+        {
+            type: "input",
+            name: "name",
+            message: "Engineer's name:",
+        },
+        {
+            type: "input",
+            name: "id",
+            message: "Engineer's employee ID:",
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Engineer's email:",
+        },
+        {
+            type: "input",
+            name: "github",
+            message: "Engineer's GitHub username:",
+        }
+    ]).then(answers => {
+        const engineer = new Engineer(answers.name, answers.id, answers.email, answers.github);
+        teamMembers.push(engineer);
+        promptEmployeeType();
     });
 }
