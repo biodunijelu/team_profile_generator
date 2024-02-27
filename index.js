@@ -130,3 +130,15 @@ function promptIntern() {
         promptEmployeeType();
     });
 }
+
+// Function to generate HTML file with team information
+function generateTeamHtml() {
+    const html = render(teamMembers);
+    fs.writeFile(outputPath, html, err => {
+        if (err) {
+            console.error("Error writing HTML file:", err);
+        } else {
+            console.log(`Team HTML file generated at ${outputPath}`);
+        }
+    });
+}
