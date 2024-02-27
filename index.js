@@ -142,3 +142,6 @@ function generateTeamHtml() {
         }
     });
 }
+
+// Start the application by prompting for Manager's details
+promptManager();
