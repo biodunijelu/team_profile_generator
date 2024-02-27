@@ -23,5 +23,7 @@ The application is built using Node.js and utilizes inquirer for user input and 
 3. Once you have finished adding team members, select the option to finish building the team.
 4. The application will generate an HTML file in the `output` directory containing the team page.
 
+## Tests
+- Run `npm test` to run the test suite and ensure all tests pass.
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
