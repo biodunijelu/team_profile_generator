@@ -26,9 +26,16 @@ The application is built using Node.js and utilizes inquirer for user input and 
 ## Tests
 - Run `npm test` to run the test suite and ensure all tests pass.
 
+## Screenshots
+
+```md
+
+(https://github.com/biodunijelu/team_profile_generator/blob/main/assets/images/mockup_design.png)
+
+```
+
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
-
 
 
 ## License
