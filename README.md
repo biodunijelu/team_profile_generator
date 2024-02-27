@@ -9,6 +9,7 @@ The application is built using Node.js and utilizes inquirer for user input and 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
