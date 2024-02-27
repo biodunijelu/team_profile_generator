@@ -12,5 +12,9 @@ The application is built using Node.js and utilizes inquirer for user input and 
 - [Contributing](#contributing)
 - [License](#license)
 
+## Installation
+1. Clone the repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install the dependencies.
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
