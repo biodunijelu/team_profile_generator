@@ -1,0 +1,54 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.team-heading {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.team-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Card styles */
+.employee-card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.list-group-item {
+    border: none;
+    padding: 5px 0;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
