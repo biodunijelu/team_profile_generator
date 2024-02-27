@@ -71,7 +71,7 @@ function promptEmployeeType() {
 function promptEngineer() {
 
     console.log("\nPlease enter the details of the engineer:");
-    
+
     inquirer.prompt([
         {
             type: "input",
@@ -96,6 +96,37 @@ function promptEngineer() {
     ]).then(answers => {
         const engineer = new Engineer(answers.name, answers.id, answers.email, answers.github);
         teamMembers.push(engineer);
+        promptEmployeeType();
+    });
+}
+
+// Function to prompt user to input Intern's details
+function promptIntern() {
+    console.log("\nPlease enter the details of the intern:");
+    inquirer.prompt([
+        {
+            type: "input",
+            name: "name",
+            message: "Intern's name:",
+        },
+        {
+            type: "input",
+            name: "id",
+            message: "Intern's employee ID:",
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Intern's email:",
+        },
+        {
+            type: "input",
+            name: "school",
+            message: "Intern's school:",
+        }
+    ]).then(answers => {
+        const intern = new Intern(answers.name, answers.id, answers.email, answers.school);
+        teamMembers.push(intern);
         promptEmployeeType();
     });
 }
