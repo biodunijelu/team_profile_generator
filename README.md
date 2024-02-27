@@ -30,4 +30,6 @@ The application is built using Node.js and utilizes inquirer for user input and 
 Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
 
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+## License
+This project is licensed under the © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
